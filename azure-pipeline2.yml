@@ -11,4 +11,4 @@ trigger:
 stages:
 - stage: CI_Checks
   jobs:
-  - template: ci_template.yml
+  - template: TemplateRepo/ci_template.yml
