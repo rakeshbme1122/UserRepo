@@ -11,4 +11,4 @@ trigger:
 stages:
 - stage: CI_Checks
   jobs:
-  - template: TemplateRepo/ci_template.yml
+  - template: rakeshbme1122.TemplateRepo/ci_template.yml
