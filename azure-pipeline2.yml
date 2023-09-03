@@ -1,0 +1,14 @@
+# Repo: MySpace/UserRepo
+# File: azure-pipeline2.yml
+
+name: cicd_ci
+
+trigger:
+  branches:
+    include:
+      - master
+
+stages:
+- stage: CI_Checks
+  jobs:
+  - template: ci_template.yml
